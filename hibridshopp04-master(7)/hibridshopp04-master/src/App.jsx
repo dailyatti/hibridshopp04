@@ -240,7 +240,7 @@ function App() {
       name: "Maltipoo",
       description: "A máltai selyemkutya és az intelligens uszkár keresztezése. Ez a kis termetű, vidám keverék tökéletes választás lakásba és családba egyaránt.",
       traits: ["Okos és könnyen tanítható", "Ragaszkodó, bújós és gyerekbarát", "Alig vedlik - allergiásoknak is jó", "Játékos, aktív, mégis alkalmazkodó"],
-      availableDogs: availableDogs.filter(dog => dog.category === "maltipoo"),
+      availableDogs: availableDogs.filter(dog => dog.category === "Maltipoo"),
       icon: "🐕",
       gradient: "from-orange-400 to-red-400"
     },
@@ -256,7 +256,7 @@ function App() {
       name: "Cavapoo/Cockapoo",
       description: "A Cocker Spániel/Cavalier King Spániel és az Uszkár keresztezése. Vidám, intelligens, szeretetre méltó fajta.",
       traits: ["Okos, könnyen tanul", "Játékos és ragaszkodó", "Szőrzetük göndör vagy hullámos", "Tökéletes választás családoknak"],
-      availableDogs: availableDogs.filter(dog => dog.category === "cavapoo"),
+      availableDogs: availableDogs.filter(dog => dog.category === "Cavapoo"),
       icon: "🐶",
       gradient: "from-green-400 to-teal-400"
     },
