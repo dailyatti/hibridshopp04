@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "name": "Carlos",
+    "breed": "Cavapoo",
+    "age": "9 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/carlos.jpg",
+    "description": "Első generációs Cavapoo fiu, gyönyörű vörös-barna göndör szőrzet, nagyon játékos és szeretetteljes természet. Carlos egy igazi családi kedvenc, aki imádja a gyerekeket és könnyen alkalmazkodik új környezethez.",
+    "gender": "Fiú",
+    "vaccinated": true,
+    "weight": "7-8kg",
+    "parents": "Cavalier King Spániel × Törpe Uszkár apa",
+    "temperament": "Játékos, szeretetteljes, intelligens",
+    "specialFeatures": [
+      "Hipoallergén szőrzet",
+      "Könnyen tanítható",
+      "Gyerekbarát",
+      "Lakásban tartható"
+    ],
+    "category": "Cavapoo"
+  },
+  {
+    "id": 2,
+    "name": "Joker",
+    "breed": "Maltipoo",
+    "age": "10 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/carlos.jpg",
+    "description": "Első generációs Maltipoo fiu, gyönyörű krém színű hullámos szőrzet, nagyon játékos és szeretetteljes természet. Joker egy igazi családi kedvenc, aki imádja a gyerekeket és könnyen alkalmazkodik új környezethez.",
+    "gender": "Fiú",
+    "vaccinated": true,
+    "weight": "5 kg",
+    "parents": "Máltai selyem anya × Törpe Uszkár apa",
+    "temperament": "Játékos, szeretetteljes, intelligens",
+    "specialFeatures": [
+      "Hipoallergén szőrzet",
+      "Könnyen tanítható",
+      "Gyerekbarát",
+      "Lakásban tartható"
+    ],
+    "category": "Maltipoo"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "breed": "Maltipoo",
+    "age": "10 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/carlos.jpg",
+    "description": "Első generációs Maltipoo fiu, gyönyörű krém színű hullámos szőrzet, nagyon játékos és szeretetteljes természet. Charlie egy igazi családi kedvenc, aki imádja a gyerekeket és könnyen alkalmazkodik új környezethez.",
+    "gender": "Fiú",
+    "vaccinated": true,
+    "weight": "5 kg",
+    "parents": "Máltai selyem anya × Törpe Uszkár apa",
+    "temperament": "Játékos, szeretetteljes, intelligens",
+    "specialFeatures": [
+      "Hipoallergén szőrzet",
+      "Könnyen tanítható",
+      "Gyerekbarát",
+      "Lakásban tartható"
+    ],
+    "category": "Maltipoo"
+  },
+  {
+    "id": 4,
+    "name": "Fanto",
+    "breed": "Maltipoo",
+    "age": "14 hetes",
+    "price": "350.000 Ft",
+    "image": "/src/assets/carlos.jpg",
+    "description": "Második generációs Maltipoo fiu, gyönyörű vörös színű hullámos szőrzet, nagyon játékos és szeretetteljes természet. Fanto egy igazi családi kedvenc, aki imádja a gyerekeket és könnyen alkalmazkodik új környezethez.",
+    "gender": "Fiú",
+    "vaccinated": true,
+    "weight": "4 kg",
+    "parents": "Máltai selyem anya × Törpe Uszkár apa",
+    "temperament": "Játékos, szeretetteljes, intelligens",
+    "specialFeatures": [
+      "Hipoallergén szőrzet",
+      "Könnyen tanítható",
+      "Gyerekbarát",
+      "Lakásban tartható"
+    ],
+    "category": "Maltipoo"
+  },
+  {
+    "id": 5,
+    "name": "Bodza",
+    "breed": "Maltipoo",
+    "age": "14 hetes",
+    "price": "350.000 Ft",
+    "image": "/src/assets/carlos.jpg",
+    "description": "Második generációs Maltipoo lány, gyönyörű krém színű hullámos szőrzet, nagyon játékos és szeretetteljes természet. Bodza egy igazi családi kedvenc, aki imádja a gyerekeket és könnyen alkalmazkodik új környezethez.",
+    "gender": "Lány",
+    "vaccinated": true,
+    "weight": "4 kg",
+    "parents": "Máltai selyem anya × Törpe Uszkár apa",
+    "temperament": "Játékos, szeretetteljes, intelligens",
+    "specialFeatures": [
+      "Hipoallergén szőrzet",
+      "Könnyen tanítható",
+      "Gyerekbarát",
+      "Lakásban tartható"
+    ],
+    "category": "Maltipoo"
+  },
+  {
+    "id": 6,
+    "name": "Coco",
+    "breed": "Maltipoo",
+    "age": "8 hetes",
+    "price": "200.000 Ft",
+    "image": "/src/assets/carlos.jpg",
+    "description": "Első generációs Maltipoo lány, gyönyörű krém színű hullámos szőrzet, nagyon játékos és szeretetteljes természet. Coco egy igazi családi kedvenc, aki imádja a gyerekeket és könnyen alkalmazkodik új környezethez.",
+    "gender": "Lány",
+    "vaccinated": true,
+    "weight": "3 kg",
+    "parents": "Máltai selyem anya × Toy Uszkár apa",
+    "temperament": "Játékos, szeretetteljes, intelligens",
+    "specialFeatures": [
+      "Hipoallergén szőrzet",
+      "Könnyen tanítható",
+      "Gyerekbarát",
+      "Lakásban tartható"
+    ],
+    "category": "Maltipoo"
+  },
+  {
+    "id": 7,
+    "name": "Apollo",
+    "breed": "Micro Maltipoo",
+    "age": "9 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/micro_maltipoo_apollo.jpg",
+    "description": "Micro Maltipoo kölyök, világos krém szőrzet, nagyon intelligens és tanulékony természet. Apollo egy kivételesen okos kis kutya, aki gyorsan megtanulja a parancsokat és imádja a játékot.",
+    "gender": "Fiú",
+    "vaccinated": true,
+    "weight": "3 kg",
+    "parents": "Máltai selyemkutya anya × Micro uszkár apa",
+    "temperament": "Intelligens, játékos, tanulékony",
+    "specialFeatures": [
+      "Micro méret",
+      "Rendkívül okos",
+      "Gyorsan tanul",
+      "Ideal lakásba"
+    ],
+    "category": "maltipoo"
+  },
+  {
+    "id": 8,
+    "name": "Zeus",
+    "breed": "Micro Maltipoo",
+    "age": "9 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/micro_maltipoo_zeus.jpg",
+    "description": "Micro Maltipoo kölyök, fehér-barna szőrzet, energikus és barátságos természet. Zeus egy igazi kis energiabomba, aki mindig vidám és szereti a társaságot.",
+    "gender": "Fiú",
+    "vaccinated": true,
+    "weight": "3 kg",
+    "parents": "Máltai selyemkutya anya × Micro uszkár apa",
+    "temperament": "Energikus, barátságos, vidám",
+    "specialFeatures": [
+      "Micro méret",
+      "Nagyon energikus",
+      "Barátságos",
+      "Társaságkedvelő"
+    ],
+    "category": "maltipoo"
+  },
+  {
+    "id": 9,
+    "name": "Atlas",
+    "breed": "Micro Maltipoo",
+    "age": "9 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/micro_maltipoo_atlas.jpg",
+    "description": "Micro Maltipoo kölyök, arany-krém szőrzet, nyugodt és szeretetteljes természet. Atlas egy szelíd, ragaszkodó kis kutya, aki tökéletes családi kedvenc.",
+    "gender": "Fiú",
+    "vaccinated": true,
+    "weight": "3 kg",
+    "parents": "Máltai selyemkutya anya × Micro uszkár apa",
+    "temperament": "Szelíd, ragaszkodó, szeretetteljes",
+    "specialFeatures": [
+      "Micro méret",
+      "Szelíd természet",
+      "Ragaszkodó",
+      "Családi kedvenc"
+    ],
+    "category": "maltipoo"
+  },
+  {
+    "id": 10,
+    "name": "Luna",
+    "breed": "Micro Maltipoo",
+    "age": "9 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/micro_maltipoo_luna.jpg",
+    "description": "Micro Maltipoo kölyök, fehér-krém szőrzet, nyugodt és intelligens természet. Luna egy kivételesen szelíd kis kutya, aki imádja a simogatást és a csendes játékokat.",
+    "gender": "Szuka",
+    "vaccinated": true,
+    "weight": "3 kg",
+    "parents": "Máltai selyemkutya anya × Micro uszkár apa",
+    "temperament": "Szelíd, intelligens, nyugodt",
+    "specialFeatures": [
+      "Micro méret",
+      "Kivételesen szelíd",
+      "Intelligens",
+      "Ideal családba"
+    ],
+    "category": "maltipoo"
+  },
+  {
+    "id": 11,
+    "name": "Nova",
+    "breed": "Micro Maltipoo",
+    "age": "9 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/micro_maltipoo_nova.jpg",
+    "description": "Micro Maltipoo kölyök, arany-barna szőrzet, energikus és játékos természet. Nova egy igazi kis csillag, aki mindig vidám és szereti a kalandokat.",
+    "gender": "Szuka",
+    "vaccinated": true,
+    "weight": "3 kg",
+    "parents": "Máltai selyemkutya anya × Micro uszkár apa",
+    "temperament": "Energikus, játékos, kalandvágyó",
+    "specialFeatures": [
+      "Micro méret",
+      "Nagyon energikus",
+      "Játékos",
+      "Kalandvágyó"
+    ],
+    "category": "maltipoo"
+  },
+  {
+    "id": 12,
+    "name": "Aurora",
+    "breed": "Micro Maltipoo",
+    "age": "9 hetes",
+    "price": "300.000 Ft",
+    "image": "/src/assets/micro_maltipoo_aurora.jpg",
+    "description": "Micro Maltipoo kölyök, világos szőrzet, szeretetteljes és ragaszkodó természet. Aurora egy gyönyörű kis kutya, aki mindig szeretetteljes és hűséges társ.",
+    "gender": "Szuka",
+    "vaccinated": true,
+    "weight": "3 kg",
+    "parents": "Máltai selyemkutya anya × Micro uszkár apa",
+    "temperament": "Szeretetteljes, ragaszkodó, barátságos",
+    "specialFeatures": [
+      "Micro méret",
+      "Szeretetteljes",
+      "Ragaszkodó",
+      "Hűséges társ"
+    ],
+    "category": "maltipoo"
+  }
+]
