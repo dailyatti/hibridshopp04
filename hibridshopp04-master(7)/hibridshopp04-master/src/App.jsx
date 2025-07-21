@@ -9,6 +9,7 @@ import Gallery from './components/Gallery.jsx'
 import GalleryPage from './components/GalleryPage.jsx'
 import BookingPage from './components/BookingPage.jsx'
 import { useGitHubData } from '@/hooks/useGitHubData.js'
+import dogsData from '../data/dogs.json'
 
 // Import dog images for Micro Maltipoos
 import microApollo from './assets/micro_maltipoo_apollo.jpg'
@@ -29,37 +30,24 @@ function App() {
 
   // Load dogs data from JSON file
   useEffect(() => {
-    const loadDogsData = async () => {
-      try {
-        const response = await fetch('/data/dogs.json')
-        const dogsData = await response.json()
-        
-        // Map the dogs data and handle image URLs
-        const mappedDogs = dogsData.map(dog => {
-          // For Micro Maltipoos, use local images
-          if (dog.id >= 7 && dog.id <= 12) {
-            const microImages = {
-              7: microApollo,
-              8: microZeus,
-              9: microAtlas,
-              10: microLuna,
-              11: microNova,
-              12: microAurora
-            }
-            return { ...dog, image: microImages[dog.id] }
-          }
-          return dog
-        })
-        
-        setAvailableDogs(mappedDogs)
-      } catch (error) {
-        console.error('Error loading dogs data:', error)
-        // Fallback to empty array if loading fails
-        setAvailableDogs([])
+    // Map the dogs data and handle image URLs
+    const mappedDogs = dogsData.map(dog => {
+      // For Micro Maltipoos, use local images
+      if (dog.id >= 7 && dog.id <= 12) {
+        const microImages = {
+          7: microApollo,
+          8: microZeus,
+          9: microAtlas,
+          10: microLuna,
+          11: microNova,
+          12: microAurora
+        }
+        return { ...dog, image: microImages[dog.id] }
       }
-    }
-
-    loadDogsData()
+      return dog
+    })
+    
+    setAvailableDogs(mappedDogs)
   }, [])
 
   // GitHub data hooks
